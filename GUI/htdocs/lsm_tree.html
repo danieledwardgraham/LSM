@@ -1,0 +1,11 @@
+<LI><a href="lsm_statPresent.cgi?period=[% period %]&TopId=[% TopId %]&GMTIME1=[% GMTIME1 %]&GMTIME2=[% GMTIME2 %]&GMTDiff=[% GMTDIFF %][% arg.keyStr %]" target="showframe">[% arg.key %]</a>
+<UL>
+[%- FOREACH item = arg.Nodes -%]
+<LI><b>[% item.TKey %]</b>
+[%- FOREACH item2 = item.Vals -%]
+<UL>
+[% INCLUDE "lsm_tree.html" arg=item2 TopId=item.TopId %]
+</UL>
+[%- END -%]
+[%- END -%]
+</UL>

@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>LINUX System Monitor</title>
+<script type="text/javascript" src="/calendarDateInput.js">
+
+/***********************************************
+* Jason's Date Input Calendar- By Jason Moon http://www.jasonmoon.net/
+* Script featured on and available at http://www.dynamicdrive.com
+* Keep this notice intact for use.
+***********************************************/
+
+</script>
+<script type="text/javascript">
+function localToGMT() {
+    var dtField, hrField, gmtDtField, gmtHrField, gmtDiffField;
+    with (document) {
+        for (var f=0; f<forms.length; f++) {
+            for (var e=0; e<forms[f].elements.length; e++) {
+               if (forms[f].elements[e].name == 'statDate') {
+                   dtField = forms[f].elements[e];
+               } else {
+                   if (forms[f].elements[e].name == 'statHour') {
+                       hrField = forms[f].elements[e];
+                   } else {
+                       if (forms[f].elements[e].name == 'GMTDate') {
+                           gmtDtField = forms[f].elements[e];
+                       } else {
+                           if (forms[f].elements[e].name == 'GMTHour') {
+                               gmtHrField = forms[f].elements[e];
+                           } else {
+                               if (forms[f].elements[e].name == 'GMTDiff') {
+                                   gmtDiffField = forms[f].elements[e];
+                               } 
+                           }
+                       }
+                   }
+               }
+            }
+         }
+    }
+    var tm = (hrField.selectedIndex + 100) + '';
+    tm = tm.substr(1,2);
+    tm += ':00:00';
+    var dt = dtField.value;
+    var localDt = new Date(dt + ' ' + tm);
+    var GMTYear = localDt.getUTCFullYear();
+    GMTYear += '';
+    var GMTMonth = (localDt.getUTCMonth() + 101) + '';
+    GMTMonth = GMTMonth.substr(1,2);
+    var GMTDate = (localDt.getUTCDate() + 100) + ''; 
+    GMTDate = GMTDate.substr(1,2);
+    var GMTHours = (localDt.getUTCHours() + 100) + ''; 
+    GMTHours = GMTHours.substr(1,2);
+    gmtHrField.value = GMTHours;
+    gmtDtField.value = GMTYear + '-' + GMTMonth + '-' + GMTDate;
+    gmtDiffField.value = localDt.getTimezoneOffset() * -60;
+} 
+
+function printHourSelect(hr) {
+    if (hr == '') {
+        var dt = new Date();
+        hr = dt.getHours();
+    }
+    document.writeln('<SELECT NAME="statHour">');    
+    var hrVal, hrValStr;
+    var selectedTxt;
+    for (var i=0; i<24; i++) {
+        hrVal = i+100; 
+        hrValStr = hrVal + '';
+        hrValStr = hrValStr.substr(1, 2);
+        selectedTxt = (i == hr) ? 'SELECTED':'';
+        document.writeln('<OPTION VALUE="' + hrValStr + '" ' + selectedTxt + '>' + hrValStr + '</OPTION>');
+    }
+    document.writeln('</SELECT>');
+}
+
+function printLocalDate(dt, offset) {
+    var oldDt = new Date();
+    dt = dt.replace(/-/g, '/');
+    oldDt.setTime(Date.parse(dt));
+    var newDt = new Date(oldDt.getTime() + offset * 1000);
+    var LocalYear = newDt.getFullYear() + '';
+    var LocalMonth = (newDt.getMonth() + 101) + '';
+    LocalMonth = LocalMonth.substr(1,2);
+    var LocalDate = (newDt.getDate() + 100) + ''; 
+    LocalDate = LocalDate.substr(1,2);
+    var LocalHours = (newDt.getHours() + 100) + ''; 
+    LocalHours = LocalHours.substr(1,2);
+    var LocalMinutes = (newDt.getMinutes() + 100) + ''; 
+    LocalMinutes = LocalMinutes.substr(1,2);
+    var LocalSeconds = (newDt.getSeconds() + 100) + ''; 
+    LocalSeconds = LocalSeconds.substr(1,2);
+    document.writeln(LocalYear + '-' + LocalMonth + '-' + LocalDate + ' ' + LocalHours + ':' + LocalMinutes + ':' + LocalSeconds);
+} 
+
+function loadRight() {
+   var xdiv = document.getElementById("leftSide");
+   if (xdiv.src!="/frame_a.html") {
+       document.getElementById("showframe").height = xdiv.offsetHeight;
+   }
+}
+    
+</script>
+<SCRIPT SRC="/mktree.js" LANGUAGE="JavaScript"></SCRIPT>
+<LINK REL="stylesheet" HREF="/mktree.css">
+</head>
+<body>
+<table align="top,center">
+<tr>
+<td>
+<div id="leftSide" name="leftSide">
+<table border="2" align="top,center" width="400" height="500">
+<tr>
+<td width="540" align="top">
+<font size="2"><b><script>printLocalDate("[% GMTIME1 %]", [% GMTDIFF %])</script> - <script>printLocalDate("[% GMTIME2 %]", [% GMTDIFF %])</script></b></font>
+<br>
+<br>
+<form name="lsm_main" action="lsm_treeSelector.cgi" method="get" onSubmit="localToGMT()">
+<script>DateInput('statDate', true, 'YYYY/MM/DD', '[% statDate %]')</script>
+<br>
+HOUR:
+<script>printHourSelect("[% statHour %]")</script>
+<br>
+<br>
+<input type="radio" name="period" value="monthly" [% "checked" IF period == "monthly" %]/>Monthly<br>
+<input type="radio" name="period" value="weekly" [% "checked" IF period == "weekly" %]/>Weekly<br>
+<input type="radio" name="period" value="daily" [% "checked" IF period == "daily" %]/>Daily<br>
+<input type="radio" name="period" value="hourly" [% "checked" IF period == "hourly" %]/>Hourly<br>
+<input type="hidden" name="GMTDate"/>
+<input type="hidden" name="GMTHour"/>
+<input type="hidden" name="GMTDiff"/>
+<br>
+<input type="submit" value="Submit"/>
+</form>
+</td>
+</tr>
+<tr>
+<td width="400">
+<UL CLASS="mktree" onClick="loadRight()">
+[% INCLUDE "lsm_tree.html" arg=tree %]
+</UL>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td width="580" align="top">
+<iframe src="/frame_a.html" id="showframe" name="showframe" width="580" height="500" border-width="0">
+</iframe>
+</td>
+</tr>
+</table>
+</body>
+</html>

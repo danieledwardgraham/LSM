@@ -1,0 +1,20 @@
+{ 'LINUX' => { 'mem_attr' => 'mem=System Memory Usage,key=3',
+              'mem' => { 'pid_attr' => 'key=1,pid=Process Id',
+                         'owner_attr' => 'key=2', 
+                         'command_attr' => 'key=3',
+                         'avgPercent_attr' => 'counter=sum;max;min;avg;percent',
+                         'maxPercent_attr' => 'counter=avg;max' },
+               'cpu_attr' => 'cpu=CPU Usage,key=3',
+               'cpu' => { 'pid_attr' => 'key=1,pid=Process Id',
+                         'owner_attr' => 'key=2', 
+                         'command_attr' => 'key=3',
+                         'avgPercent_attr' => 'counter=sum;max;min;avg;percent',
+                         'maxPercent_attr' => 'counter=avg;max' },
+               'avgSwapFree_attr' => 'key=3,avgSwapFree=Average Free Swap Percent',
+               'minSwapFree_attr' => 'key=3,minSwapFree=Minimum Free Swap Percent',
+               'avgMemFree_attr' => 'key=3,avgMemFree=Average Free Memory Percent',
+               'minMemFree_attr' => 'key=3,minMemFree=Minimum Free Memory Percent',
+               'site_attr' => 'key=1,site=LINUX site',
+               'server_attr' => 'key=2,server=LINUX host' 
+               }
+}

@@ -1,0 +1,101 @@
+<html>
+<head>
+<title>LINUX System Monitor</title>
+<script type="text/javascript" src="/calendarDateInput.js">
+
+/***********************************************
+* Jason's Date Input Calendar- By Jason Moon http://www.jasonmoon.net/
+* Script featured on and available at http://www.dynamicdrive.com
+* Keep this notice intact for use.
+***********************************************/
+
+</script>
+<script type="text/javascript">
+function localToGMT() {
+    var dtField, hrField, gmtDtField, gmtHrField, gmtDiffField;
+    with (document) {
+        for (var f=0; f<forms.length; f++) {
+            for (var e=0; e<forms[f].elements.length; e++) {
+               if (forms[f].elements[e].name == 'statDate') {
+                   dtField = forms[f].elements[e];
+               } else {
+                   if (forms[f].elements[e].name == 'statHour') {
+                       hrField = forms[f].elements[e];
+                   } else {
+                       if (forms[f].elements[e].name == 'GMTDate') {
+                           gmtDtField = forms[f].elements[e];
+                       } else {
+                           if (forms[f].elements[e].name == 'GMTHour') {
+                               gmtHrField = forms[f].elements[e];
+                           } else {
+                               if (forms[f].elements[e].name == 'GMTDiff') {
+                                   gmtDiffField = forms[f].elements[e];
+                               } 
+                           }
+                       }
+                   }
+               }
+            }
+         }
+    }
+    var tm = (hrField.selectedIndex + 100) + '';
+    tm = tm.substr(1,2);
+    tm += ':00:00';
+    var dt = dtField.value;
+    var localDt = new Date(dt + ' ' + tm);
+    var GMTYear = localDt.getUTCFullYear();
+    GMTYear += '';
+    var GMTMonth = (localDt.getUTCMonth() + 101) + '';
+    GMTMonth = GMTMonth.substr(1,2);
+    var GMTDate = (localDt.getUTCDate() + 100) + ''; 
+    GMTDate = GMTDate.substr(1,2);
+    var GMTHours = (localDt.getUTCHours() + 100) + ''; 
+    GMTHours = GMTHours.substr(1,2);
+    gmtHrField.value = GMTHours;
+    gmtDtField.value = GMTYear + '-' + GMTMonth + '-' + GMTDate;
+    gmtDiffField.value = localDt.getTimezoneOffset() * -60;
+} 
+
+function printHourSelect(hr) {
+    if (hr == '') {
+        var dt = new Date();
+        hr = dt.getHours();
+    }
+    document.writeln('<SELECT NAME="statHour">');    
+    var hrVal, hrValStr;
+    var selectedTxt;
+    for (var i=0; i<24; i++) {
+        hrVal = i+100; 
+        hrValStr = hrVal + '';
+        hrValStr = hrValStr.substr(1, 2);
+        selectedTxt = (i == hr) ? 'SELECTED':'';
+        document.writeln('<OPTION VALUE="' + hrValStr + '" ' + selectedTxt + '>' + hrValStr + '</OPTION>');
+    }
+    document.writeln('</SELECT>');
+}
+</script>
+</head>
+<body>
+<table align=center>
+<td>
+<form name="lsm_main" action="lsm_treeSelector.cgi" method="get" onSubmit="localToGMT()">
+<script>DateInput('statDate', true, 'YYYY/MM/DD')</script>
+<br>
+HOUR:
+<script>printHourSelect('')</script>
+<br>
+<br>
+<input type="radio" name="period" value="monthly"/>Monthly<br>
+<input type="radio" name="period" value="weekly"/>Weekly<br>
+<input type="radio" name="period" value="daily"/>Daily<br>
+<input type="radio" name="period" value="hourly" checked/>Hourly<br>
+<input type="hidden" name="GMTDate"/>
+<input type="hidden" name="GMTHour"/>
+<input type="hidden" name="GMTDiff"/>
+<br>
+<input type="submit" value="Submit"/>
+</form>
+</td>
+</table>
+</body>
+</html>

@@ -1,0 +1,3911 @@
+<root><LINUX LINUX="LINUX"
+
+><site key="1" site="LINUX site"
+
+>stpaul</site
+
+><stats time="20091210024052" stats="system stats"
+
+><statsItem statsItem="statsItem"
+
+><reboot key="3" reboot="System Reboot"
+
+><rebootItem time="20091209024000" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+> 24.0000</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+><rebootItem time="20091208212600" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+>  5.0833</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+><rebootItem time="20091204183100" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+>104.0167</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+><rebootItem time="20091201220900" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+> 68.3333</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+></reboot
+
+></statsItem
+
+><statsItem statsItem="statsItem"
+
+><login key="3" login="User Logins"
+
+><loginItem time="20091210021800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.3811</duration
+
+></loginItem
+
+><loginItem time="20091209210500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  5.5978</duration
+
+></loginItem
+
+><loginItem time="20091209024200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 18.3667</duration
+
+></loginItem
+
+><loginItem time="20091209020400" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0500</duration
+
+></loginItem
+
+><loginItem time="20091208223900" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  3.8833</duration
+
+></loginItem
+
+><loginItem time="20091208212800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  1.1500</duration
+
+></loginItem
+
+><loginItem time="20091208205900" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.4500</duration
+
+></loginItem
+
+><loginItem time="20091208181200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091208181100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  2.7833</duration
+
+></loginItem
+
+><loginItem time="20091208005400" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091207035500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091205232200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091205232100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 66.8167</duration
+
+></loginItem
+
+><loginItem time="20091205022500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091205022300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/3</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0333</duration
+
+></loginItem
+
+><loginItem time="20091205021900" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/2</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0500</duration
+
+></loginItem
+
+><loginItem time="20091204233000" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  2.8000</duration
+
+></loginItem
+
+><loginItem time="20091204215700" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.8833</duration
+
+></loginItem
+
+><loginItem time="20091204183200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 95.6167</duration
+
+></loginItem
+
+><loginItem time="20091203183500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  6.0667</duration
+
+></loginItem
+
+><loginItem time="20091203163800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.2000</duration
+
+></loginItem
+
+><loginItem time="20091203061300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091203061200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091203061100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/7</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0167</duration
+
+></loginItem
+
+><loginItem time="20091203053800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.5333</duration
+
+></loginItem
+
+><loginItem time="20091203051600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.9500</duration
+
+></loginItem
+
+><loginItem time="20091203033200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  1.7333</duration
+
+></loginItem
+
+><loginItem time="20091203032300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  1.8667</duration
+
+></loginItem
+
+><loginItem time="20091203014600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091203014300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0333</duration
+
+></loginItem
+
+><loginItem time="20091202031600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/4</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 22.4500</duration
+
+></loginItem
+
+><loginItem time="20091202030600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/4</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091202030600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/2</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091202025300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.2000</duration
+
+></loginItem
+
+><loginItem time="20091201221100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 68.3000</duration
+
+></loginItem
+
+></login
+
+></statsItem
+
+></stats
+
+><server key="2" server="LINUX host"
+
+>localhost.localdomain</server
+
+></LINUX
+
+>
+
+<LINUX LINUX="LINUX"
+
+><site key="1" site="LINUX site"
+
+>stpaul</site
+
+><stats time="20091210024122" stats="system stats"
+
+><statsItem statsItem="statsItem"
+
+><reboot key="3" reboot="System Reboot"
+
+><rebootItem time="20091209024000" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+> 24.0000</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+><rebootItem time="20091208212600" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+>  5.0833</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+><rebootItem time="20091204183100" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+>104.0167</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+><rebootItem time="20091201220900" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+> 68.3333</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+></reboot
+
+></statsItem
+
+><statsItem statsItem="statsItem"
+
+><login key="3" login="User Logins"
+
+><loginItem time="20091210021800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.3894</duration
+
+></loginItem
+
+><loginItem time="20091209210500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  5.6061</duration
+
+></loginItem
+
+><loginItem time="20091209024200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 18.3667</duration
+
+></loginItem
+
+><loginItem time="20091209020400" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0500</duration
+
+></loginItem
+
+><loginItem time="20091208223900" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  3.8833</duration
+
+></loginItem
+
+><loginItem time="20091208212800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  1.1500</duration
+
+></loginItem
+
+><loginItem time="20091208205900" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.4500</duration
+
+></loginItem
+
+><loginItem time="20091208181200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091208181100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  2.7833</duration
+
+></loginItem
+
+><loginItem time="20091208005400" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091207035500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091205232200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091205232100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 66.8167</duration
+
+></loginItem
+
+><loginItem time="20091205022500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091205022300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/3</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0333</duration
+
+></loginItem
+
+><loginItem time="20091205021900" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/2</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0500</duration
+
+></loginItem
+
+><loginItem time="20091204233000" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  2.8000</duration
+
+></loginItem
+
+><loginItem time="20091204215700" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.8833</duration
+
+></loginItem
+
+><loginItem time="20091204183200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 95.6167</duration
+
+></loginItem
+
+><loginItem time="20091203183500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  6.0667</duration
+
+></loginItem
+
+><loginItem time="20091203163800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.2000</duration
+
+></loginItem
+
+><loginItem time="20091203061300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091203061200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091203061100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/7</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0167</duration
+
+></loginItem
+
+><loginItem time="20091203053800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.5333</duration
+
+></loginItem
+
+><loginItem time="20091203051600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.9500</duration
+
+></loginItem
+
+><loginItem time="20091203033200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  1.7333</duration
+
+></loginItem
+
+><loginItem time="20091203032300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  1.8667</duration
+
+></loginItem
+
+><loginItem time="20091203014600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091203014300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0333</duration
+
+></loginItem
+
+><loginItem time="20091202031600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/4</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 22.4500</duration
+
+></loginItem
+
+><loginItem time="20091202030600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/4</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091202030600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/2</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091202025300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.2000</duration
+
+></loginItem
+
+><loginItem time="20091201221100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 68.3000</duration
+
+></loginItem
+
+></login
+
+></statsItem
+
+></stats
+
+><server key="2" server="LINUX host"
+
+>localhost.localdomain</server
+
+></LINUX
+
+>
+
+<LINUX LINUX="LINUX"
+
+><site key="1" site="LINUX site"
+
+>stpaul</site
+
+><stats time="20091210024152" stats="system stats"
+
+><statsItem statsItem="statsItem"
+
+><reboot key="3" reboot="System Reboot"
+
+><rebootItem time="20091209024000" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+> 24.0167</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+><rebootItem time="20091208212600" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+>  5.0833</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+><rebootItem time="20091204183100" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+>104.0167</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+><rebootItem time="20091201220900" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+> 68.3333</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+></reboot
+
+></statsItem
+
+><statsItem statsItem="statsItem"
+
+><login key="3" login="User Logins"
+
+><loginItem time="20091210021800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.3978</duration
+
+></loginItem
+
+><loginItem time="20091209210500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  5.6144</duration
+
+></loginItem
+
+><loginItem time="20091209024200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 18.3667</duration
+
+></loginItem
+
+><loginItem time="20091209020400" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0500</duration
+
+></loginItem
+
+><loginItem time="20091208223900" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  3.8833</duration
+
+></loginItem
+
+><loginItem time="20091208212800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  1.1500</duration
+
+></loginItem
+
+><loginItem time="20091208205900" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.4500</duration
+
+></loginItem
+
+><loginItem time="20091208181200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091208181100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  2.7833</duration
+
+></loginItem
+
+><loginItem time="20091208005400" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091207035500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091205232200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091205232100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 66.8167</duration
+
+></loginItem
+
+><loginItem time="20091205022500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091205022300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/3</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0333</duration
+
+></loginItem
+
+><loginItem time="20091205021900" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/2</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0500</duration
+
+></loginItem
+
+><loginItem time="20091204233000" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  2.8000</duration
+
+></loginItem
+
+><loginItem time="20091204215700" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.8833</duration
+
+></loginItem
+
+><loginItem time="20091204183200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 95.6167</duration
+
+></loginItem
+
+><loginItem time="20091203183500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  6.0667</duration
+
+></loginItem
+
+><loginItem time="20091203163800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.2000</duration
+
+></loginItem
+
+><loginItem time="20091203061300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091203061200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091203061100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/7</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0167</duration
+
+></loginItem
+
+><loginItem time="20091203053800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.5333</duration
+
+></loginItem
+
+><loginItem time="20091203051600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.9500</duration
+
+></loginItem
+
+><loginItem time="20091203033200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  1.7333</duration
+
+></loginItem
+
+><loginItem time="20091203032300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  1.8667</duration
+
+></loginItem
+
+><loginItem time="20091203014600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091203014300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0333</duration
+
+></loginItem
+
+><loginItem time="20091202031600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/4</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 22.4500</duration
+
+></loginItem
+
+><loginItem time="20091202030600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/4</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091202030600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/2</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091202025300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.2000</duration
+
+></loginItem
+
+><loginItem time="20091201221100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 68.3000</duration
+
+></loginItem
+
+></login
+
+></statsItem
+
+></stats
+
+><server key="2" server="LINUX host"
+
+>localhost.localdomain</server
+
+></LINUX
+
+>
+
+<LINUX LINUX="LINUX"
+
+><site key="1" site="LINUX site"
+
+>stpaul</site
+
+><stats time="20091210024222" stats="system stats"
+
+><statsItem statsItem="statsItem"
+
+><reboot key="3" reboot="System Reboot"
+
+><rebootItem time="20091209024000" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+> 24.0167</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+><rebootItem time="20091208212600" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+>  5.0833</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+><rebootItem time="20091204183100" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+>104.0167</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+><rebootItem time="20091201220900" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+> 68.3333</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+></reboot
+
+></statsItem
+
+><statsItem statsItem="statsItem"
+
+><login key="3" login="User Logins"
+
+><loginItem time="20091210021800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.4061</duration
+
+></loginItem
+
+><loginItem time="20091209210500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  5.6228</duration
+
+></loginItem
+
+><loginItem time="20091209024200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 18.3667</duration
+
+></loginItem
+
+><loginItem time="20091209020400" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0500</duration
+
+></loginItem
+
+><loginItem time="20091208223900" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  3.8833</duration
+
+></loginItem
+
+><loginItem time="20091208212800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  1.1500</duration
+
+></loginItem
+
+><loginItem time="20091208205900" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.4500</duration
+
+></loginItem
+
+><loginItem time="20091208181200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091208181100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  2.7833</duration
+
+></loginItem
+
+><loginItem time="20091208005400" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091207035500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091205232200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091205232100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 66.8167</duration
+
+></loginItem
+
+><loginItem time="20091205022500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091205022300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/3</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0333</duration
+
+></loginItem
+
+><loginItem time="20091205021900" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/2</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0500</duration
+
+></loginItem
+
+><loginItem time="20091204233000" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  2.8000</duration
+
+></loginItem
+
+><loginItem time="20091204215700" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.8833</duration
+
+></loginItem
+
+><loginItem time="20091204183200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 95.6167</duration
+
+></loginItem
+
+><loginItem time="20091203183500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  6.0667</duration
+
+></loginItem
+
+><loginItem time="20091203163800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.2000</duration
+
+></loginItem
+
+><loginItem time="20091203061300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091203061200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091203061100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/7</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0167</duration
+
+></loginItem
+
+><loginItem time="20091203053800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.5333</duration
+
+></loginItem
+
+><loginItem time="20091203051600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.9500</duration
+
+></loginItem
+
+><loginItem time="20091203033200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  1.7333</duration
+
+></loginItem
+
+><loginItem time="20091203032300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  1.8667</duration
+
+></loginItem
+
+><loginItem time="20091203014600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091203014300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0333</duration
+
+></loginItem
+
+><loginItem time="20091202031600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/4</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 22.4500</duration
+
+></loginItem
+
+><loginItem time="20091202030600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/4</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091202030600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/2</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091202025300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.2000</duration
+
+></loginItem
+
+><loginItem time="20091201221100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 68.3000</duration
+
+></loginItem
+
+></login
+
+></statsItem
+
+></stats
+
+><server key="2" server="LINUX host"
+
+>localhost.localdomain</server
+
+></LINUX
+
+>
+
+<LINUX LINUX="LINUX"
+
+><site key="1" site="LINUX site"
+
+>stpaul</site
+
+><stats time="20091210024252" stats="system stats"
+
+><statsItem statsItem="statsItem"
+
+><reboot key="3" reboot="System Reboot"
+
+><rebootItem time="20091209024000" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+> 24.0333</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+><rebootItem time="20091208212600" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+>  5.0833</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+><rebootItem time="20091204183100" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+>104.0167</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+><rebootItem time="20091201220900" rebootItem="rebootItem"
+
+><duration counter="avg;max;sum" duration="System Up Time"
+
+> 68.3333</duration
+
+><os key="1" os="os"
+
+>2.6.22.14-72.fc6</os
+
+></rebootItem
+
+></reboot
+
+></statsItem
+
+><statsItem statsItem="statsItem"
+
+><login key="3" login="User Logins"
+
+><loginItem time="20091210021800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.4144</duration
+
+></loginItem
+
+><loginItem time="20091209210500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  5.6311</duration
+
+></loginItem
+
+><loginItem time="20091209024200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 18.3667</duration
+
+></loginItem
+
+><loginItem time="20091209020400" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0500</duration
+
+></loginItem
+
+><loginItem time="20091208223900" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  3.8833</duration
+
+></loginItem
+
+><loginItem time="20091208212800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  1.1500</duration
+
+></loginItem
+
+><loginItem time="20091208205900" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.4500</duration
+
+></loginItem
+
+><loginItem time="20091208181200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091208181100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  2.7833</duration
+
+></loginItem
+
+><loginItem time="20091208005400" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091207035500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091205232200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091205232100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 66.8167</duration
+
+></loginItem
+
+><loginItem time="20091205022500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091205022300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/3</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0333</duration
+
+></loginItem
+
+><loginItem time="20091205021900" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/2</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0500</duration
+
+></loginItem
+
+><loginItem time="20091204233000" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  2.8000</duration
+
+></loginItem
+
+><loginItem time="20091204215700" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.8833</duration
+
+></loginItem
+
+><loginItem time="20091204183200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 95.6167</duration
+
+></loginItem
+
+><loginItem time="20091203183500" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  6.0667</duration
+
+></loginItem
+
+><loginItem time="20091203163800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.2000</duration
+
+></loginItem
+
+><loginItem time="20091203061300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091203061200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091203061100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/7</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0167</duration
+
+></loginItem
+
+><loginItem time="20091203053800" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.5333</duration
+
+></loginItem
+
+><loginItem time="20091203051600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/1</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.9500</duration
+
+></loginItem
+
+><loginItem time="20091203033200" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/6</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  1.7333</duration
+
+></loginItem
+
+><loginItem time="20091203032300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  1.8667</duration
+
+></loginItem
+
+><loginItem time="20091203014600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091203014300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/5</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0333</duration
+
+></loginItem
+
+><loginItem time="20091202031600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/4</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 22.4500</duration
+
+></loginItem
+
+><loginItem time="20091202030600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/4</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091202030600" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/2</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.0000</duration
+
+></loginItem
+
+><loginItem time="20091202025300" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>pts/0</pty
+
+><ip key="2" ip="ip"
+
+>:0.0</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+>  0.2000</duration
+
+></loginItem
+
+><loginItem time="20091201221100" loginItem="loginItem"
+
+><pty key="3" pty="pty"
+
+>:0</pty
+
+><ip key="2" ip="ip"
+
+>local</ip
+
+><user key="1" user="User Name"
+
+>dgraham</user
+
+><duration counter="avg;max;sum" duration="User Login Duration"
+
+> 68.3000</duration
+
+></loginItem
+
+></login
+
+></statsItem
+
+></stats
+
+><server key="2" server="LINUX host"
+
+>localhost.localdomain</server
+
+></LINUX
+
+>
+
+</root>

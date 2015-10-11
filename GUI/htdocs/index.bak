@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Tree contents Demonstration</title>
+<SCRIPT SRC="mktree.js" LANGUAGE="JavaScript"></SCRIPT>
+<LINK REL="stylesheet" HREF="mktree.css">
+</head>
+<body>
+<table border="2">
+<tr>
+<td width=240>
+<div>
+<UL CLASS="mktree">
+<LI><a href ="frame_a.htm" target ="showframe">Introduction</a>
+<UL>
+<LI><a href ="cgi-bin/test-cgi" target ="showframe">Part 1</a>
+<LI><a href ="cgi-bin/printenv" target ="showframe">Part 2</a>
+</UL>
+</UL>
+</div>
+</td>
+<td width="500">
+<div>
+<iframe src="frame_a.htm" name="showframe" width="500">
+</iframe>
+</div>
+</td>
+</tr>
+</body>
+</html>

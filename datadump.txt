@@ -1,0 +1,28 @@
+$VAR1 = {
+          'site' => 'stpaul',
+          'stats' => [
+                       {
+                         'disk' => [
+                                     {
+                                       'filesystem' => '/dev/mapper/VolGroup00-LogVol00',
+                                       'mount' => '/',
+                                       'capacity' => '95',
+                                       'avail' => '426476'
+                                     },
+                                     {
+                                       'filesystem' => '/dev/hda3',
+                                       'mount' => '/boot',
+                                       'capacity' => '17',
+                                       'avail' => '79795'
+                                     },
+                                     {
+                                       'filesystem' => 'tmpfs',
+                                       'mount' => '/dev/shm',
+                                       'capacity' => '0',
+                                       'avail' => '256860'
+                                     }
+                                   ]
+                       }
+                     ],
+          'server' => 'localhost.localdomain'
+        };

@@ -1,0 +1,101 @@
+<html>
+<head>
+<title>LINUX System Monitor</title>
+</head>
+<body>
+<b>PERIOD: [% period %]</b><br>
+<br>
+<table border="1">
+[%- FOREACH item=criteria -%]
+<tr>
+[%- FOREACH item2=item -%]
+<td>
+[% item2 %]
+</td>
+[%- END -%]
+</tr>
+[%- END -%]
+</table>
+<br>
+<br>
+[%- linkCnt=1 -%]
+[%- FOREACH item=counters -%]
+<a href="#link[% linkCnt %]"/>[% item.name %]</a><br>
+[%- linkCnt=linkCnt+1 -%]
+[%- END -%]
+<br>
+<br>
+[%- linkCnt=1 -%]
+[%- FOREACH item=counters -%]
+<b><u><a name="link[% linkCnt %]"/>[% item.name %]</a></u></b><br><br>
+<table border="1">
+[%- FOREACH item2=item.tbl1 -%]
+<tr>
+[%- FOREACH item3=item2 -%]
+<td>
+[% item3 %]
+</td>
+[%- END -%]
+</tr>
+[%- END -%]
+</table>
+<br><br>
+<table border="1">
+[%- head=1 -%]
+[%- FOREACH item2=item.tbl2 -%]
+<tr>
+[%- FOREACH item3=item2 -%]
+[%- IF head==1 -%]
+<th>
+[% item3 %]
+</th>
+[%- ELSE -%]
+<td>
+[% item3 %]
+</td>
+[%- END -%]
+[%- END -%]
+</tr>
+[%- head=0 -%]
+[%- END -%]
+</table>
+<br><br>
+<table border="1">
+[%- head=1 -%]
+[%- FOREACH item2=item.tbl3 -%]
+<tr>
+[%- FOREACH item3=item2 -%]
+[%- IF head==1 -%]
+<th>
+[% item3 %]
+</th>
+[%- ELSE -%]
+<td>
+[% item3 %]
+</td>
+[%- END -%]
+[%- END -%]
+</tr>
+[%- head=0 -%]
+[%- END -%]
+</table>
+<br><br>
+[%- IF item.piechart -%]
+<img src="/[% item.piechart %]"/>
+[%- END -%]
+<br>
+<br>
+[%- IF item.barchartSum -%]
+<img src="/[% item.barchartSum %]"/>
+[%- END -%]
+<br>
+<br>
+[%- IF item.barchartAvg -%]
+<img src="/[% item.barchartAvg %]"/>
+[%- END -%]
+<br>
+<br>
+[%- linkCnt=linkCnt+1 -%]
+[%- END -%]
+</body>
+</html>
