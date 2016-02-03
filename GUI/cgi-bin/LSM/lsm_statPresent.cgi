@@ -23,11 +23,14 @@ $ENV{LD_RUN_PATH}="/home/dgraham/mysql-server/mysql-5.1.37-linux-i686-icc-glibc2
 my $cgi = CGI->new(  );
 
 my ($param, $template);
-my $ROOTDIR = '/home/dgraham/Apache/httpd-2.2.14/htdocs';
+#my $ROOTDIR = '/home/dgraham/Apache/httpd-2.2.14/htdocs';
+my $ROOTDIR = '/var/lib/openshift/56afccde89f5cf39b300003b/app-root/runtime/repo/GUI/htdocs';
 
-my $ROOTURL = '/home/dgraham/Apache/httpd-2.2.14/htdocs';
+#my $ROOTURL = '/home/dgraham/Apache/httpd-2.2.14/htdocs';
+my $ROOTURL = '/var/lib/openshift/56afccde89f5cf39b300003b/app-root/runtime/repo/GUI/htdocs';
 
-my $ROOTCGI = '/home/dgraham/Apache/httpd-2.2.14/cgi-bin/LSM';
+#my $ROOTCGI = '/home/dgraham/Apache/httpd-2.2.14/cgi-bin/LSM';
+my $ROOTCGI = '/var/lib/openshift/56afccde89f5cf39b300003b/app-root/runtime/repo/GUI/cgi-bin/LSM';
 
 my $vars = { 
     rootdir => $ROOTDIR,
@@ -53,7 +56,7 @@ open (INFILE, "lsm_db.conf") or die "Could not find database config file, lsm_db
 my $conf = join('', map {chomp && $_} <INFILE>);
 close(INFILE);
 my %conf = split(/[\=\;\,]/, $conf);
-my $DBH = DBI->connect("DBI:mysql:$conf{'DBNAME'};host=$conf{'HOST'}", $conf{'USER'}, $conf{'PASSWORD'} 
+my $DBH = DBI->connect("DBI:mysql:$conf{'DBNAME'};host=$conf{'HOST'};port=$conf{'PORT'}", $conf{'USER'}, $conf{'PASSWORD'} 
 	           ) || die("Could not connect to database: $DBI::errstr \n");
 
 my $period = $cgi->param('period');
