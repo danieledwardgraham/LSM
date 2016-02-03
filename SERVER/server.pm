@@ -81,7 +81,7 @@ sub procStats {
     my $self = shift;
     my $xml = shift;
     $xml = "<root>".$xml."</root>";
-    my $stats = $self->_ParseXML($xml);
+    my $stats = ParseXML($xml);
     $self->{"sem"}->op(0, -1, 0) or $self->logmsg("Semaphore error: $!\n");
     $self->{"database"}->connect();
     $self->dbUpdate([ ], $stats, "LINUX", undef, { }, { }, 0, { }, ""); 
@@ -96,7 +96,37 @@ sub receiveStats {
    return;
 } 
      
-sub _ParseXML {
+sub _entity {
+    my $text = shift;
+    $text =~ s/\&lt\;/\</g;
+    $text =~ s/\&gt\;/\>/g;
+    $text =~ s/\&amp\;/\&/g;
+    $text =~ s/\&apos\;/\'/g;
+    $text =~ s/\&quot\;/\"/g;
+    return $text;
+}
+
+sub _unescp {
+    my $firsttag = shift;
+    $firsttag =~ s/\\\\/\\/gs;
+    $firsttag =~ s/\\\*/\*/gs;
+    $firsttag =~ s/\\\|/\|/gs;
+    $firsttag =~ s/\\\$/\$/gs;
+    $firsttag =~ s/\\\?/\?/gs;
+    $firsttag =~ s/\\\{/\{/gs;
+    $firsttag =~ s/\\\}/\}/gs;
+    $firsttag =~ s/\\\(/\(/gs;
+    $firsttag =~ s/\\\)/\)/gs;
+    $firsttag =~ s/\\\+/\+/gs;
+    $firsttag =~ s/\\\[/\[/gs;
+    $firsttag =~ s/\\\]/\]/gs;
+    $firsttag =~ s/\\\./\./gs;
+    $firsttag =~ s/\\\^/\^/gs;
+    $firsttag =~ s/\\\-/\-/gs;
+    return $firsttag;
+}
+
+sub ParseXML {
     my ($xml) = @_;
 #    $xml =~ s/\n//g;
     $xml =~ s/\<\!\[CDATA\[(.*?)\]\]\>/&_cdatasub($1)/egs;
@@ -162,7 +192,7 @@ sub _ParseXML {
             die "Invalid XML innerxml: $innerxml\nixml: $ixml\nxmlfragment: $xmlfragment\n";
         }
     }        
-    my $nextparse = _ParseXML($innerxml);
+    my $nextparse = ParseXML($innerxml);
     $rethash->{&_unescp($firsttag)} = $nextparse;
     my @attrarr;
     while ( $attr =~ s/^[\s\n]*([^\s\=\n]+)\s*\=\s*(\".*?\"|\'.*?\')(.*)$/$3/gs ) {
@@ -255,14 +285,14 @@ sub _ParseXML {
                 $rethash->{ "$val" . "_".&_unescp(${firsttag})."_" . $attrcnt . "_attr" } = shift(@attrarr);
         }
         $attrcnt++;
-        $nextparse    = _ParseXML($innerxml);
+        $nextparse    = ParseXML($innerxml);
         push @retarr, $nextparse;
     }
     if (@retarr) {
         $rethash->{_unescp($firsttag)} = \@retarr;
     }
     $xmlfragment =~ s/${firsttag}0x0/${firsttag}/gs;
-    my $remainderparse = _ParseXML($xmlfragment);
+    my $remainderparse = ParseXML($xmlfragment);
     my $attrcnt;
     my $attrfrag;
     if ( ref($remainderparse) eq "HASH" ) {
@@ -318,22 +348,22 @@ sub dbUpdate {
         if (ref($obj) eq "HASH") {
             my @sortarr = sort {
                 my ( $s, $s2 );
-                if ( defined( $obj->{ "key" . "_$a" . "_attr" } ) ) {
-                    $s = $obj->{ "key" . "_$a" . "_attr" };
+                if ( defined( $obj->{ "key" . "_$a" . "_0_attr" } ) ) {
+                    $s = $obj->{ "key" . "_$a" . "_0_attr" };
                 }
                 else {
                     $s = $a;
                 }
-                if ( defined( $obj->{ "key" . "_$b" . "_attr" } ) ) {
-                    $s2 = $obj->{ "key" . "_$b" . "_attr" };
+                if ( defined( $obj->{ "key" . "_$b" . "_0_attr" } ) ) {
+                    $s2 = $obj->{ "key" . "_$b" . "_0_attr" };
                 }
                 else {
                     $s2 = $b;
                 }
-                if (defined($obj->{"counter" . "_$a" . "_attr"})) {
+                if (defined($obj->{"counter" . "_$a" . "_0_attr"})) {
                     $s += 2000;
                 }
-                if (defined($obj->{"counter" . "_$b" . "_attr"})) {
+                if (defined($obj->{"counter" . "_$b" . "_0_attr"})) {
                     $s2 += 2000;
                 }
                 if ((ref($obj->{"$a"}) eq "HASH") || (ref($obj->{"$a"}) eq "ARRAY")) {
@@ -350,22 +380,22 @@ sub dbUpdate {
             my $d;
             my $prevSeq = -100;
             my $arrpost = $arrcnt;
-            $arrpost = "" if ($arrcnt == 0);
+            $arrpost = "0" if ($arrcnt == 0);
             foreach my $key (@sortarr) {
-                if (ref($topobj) eq "HASH" && defined($newTime = $topobj->{ "time" . "_$topkey". $arrpost . "_attr" })) {
+                if (ref($topobj) eq "HASH" && defined($newTime = $topobj->{ "time" . "_$topkey". "_".$arrpost . "_attr" })) {
                     $time = $newTime;
                 }
-                if (defined($newTime = $obj->{ "time" . "_$key" . "_attr" })) {
+                if (defined($newTime = $obj->{ "time" . "_$key" . "_0_attr" })) {
                     $time = $newTime;
                 }
-                if (defined($attr = $obj->{ "counter" . "_$key". "_attr"})) {
+                if (defined($attr = $obj->{ "counter" . "_$key". "_0_attr"})) {
                     $counterFlag = 1;
                     $counterAttr{"$key"} = $attr;
                 }
-                if (defined($d = $obj->{ "$key" . "_$key" . "_attr"})) {
+                if (defined($d = $obj->{ "$key" . "_$key" . "_0_attr"})) {
                     $desc->{"$key"} = $d;
                 }
-                if ($prevSeq == $obj->{ "key" . "_$key" . "_attr"}) {
+                if ($prevSeq == $obj->{ "key" . "_$key" . "_0_attr"}) {
                     if ($repeatKeyLevel == 0) {
                         $stackCopy[$copyCnt] = [ ];
                         foreach (@$keyStack) {
@@ -416,8 +446,8 @@ sub dbUpdate {
                     }
                     $repeatKeyLevel = 0;
                 }
-                if (defined($obj->{ "key" . "_$key" . "_attr"})) {
-                    $prevSeq = $obj->{ "key" . "_$key" . "_attr"};
+                if (defined($obj->{ "key" . "_$key" . "_0_attr"})) {
+                    $prevSeq = $obj->{ "key" . "_$key" . "_0_attr"};
                 } 
                 push @{$writestack}, $key if ($key !~ /Item$/ && $key !~ /attr$/);
                 $lastKey++ if ($key !~ /Item$/ && $key !~ /attr$/);
@@ -458,8 +488,8 @@ sub dbUpdate {
                     $topid = $self->{"database"}->updateTbls($dbData);
                     $dbData = { };
                     $dbDataTopo = [ ];
-                    print Dumper($writestackStack);
-                    print Dumper($keystackStack);
+#                    print Dumper($writestackStack);
+#                    print Dumper($keystackStack);
                     foreach $ws (@$writestackStack) {
                         @topoArr = ( );
                         foreach $i (@{$ws}) {

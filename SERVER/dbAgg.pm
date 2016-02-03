@@ -15,6 +15,7 @@ sub new {
     my $self = { };
     $self->{"host"} = $args->{"host"};
     $self->{"dbname"} = $args->{"dbname"}; 
+    $self->{"port"} = $args->{"dbport"};
     $self->{"user"} = $args->{"user"};
     $self->{"password"} = $args->{"password"};
     $self->{"aggHourInt"} = $args->{"aggHourInt"} || 5*60;
@@ -26,7 +27,7 @@ sub new {
 
 sub connect {
     my $self = shift;
-    $self->{"dbh"} = DBI->connect("DBI:mysql:$self->{'dbname'};host=$self->{'host'}", $self->{"user"}, $self->{"password"} 
+    $self->{"dbh"} = DBI->connect("DBI:mysql:$self->{'dbname'};host=$self->{'host'};port=$self->{'port'}", $self->{"user"}, $self->{"password"} 
 	           ) || $self->logmsg("Could not connect to database: $DBI::errstr \n");
     return;
 }

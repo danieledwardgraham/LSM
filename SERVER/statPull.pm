@@ -15,7 +15,7 @@ sub new {
     my $args = shift;
     my $self = { };
     $self->{"port"} = $args->{"port"} || $ENV{"LSM_SERVERPORT"} || die "LSM_SERVERPORT not set\n";
-    $self->{"server"} = IO::Socket::INET->new(LocalPort => $self->{"port"},
+    $self->{"server"} = IO::Socket::INET->new(LocalHost => '127.13.72.1', LocalPort => $self->{"port"},
                                 Type      => SOCK_STREAM,
                                 Reuse     => 1,
                                 Proto     => 'tcp',
